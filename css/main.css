@@ -26,6 +26,7 @@ ul{
     font-size: 1rem;
     letter-spacing: 3px;
 }
+
 .section{
     padding: 66px 0;
 }
@@ -189,4 +190,79 @@ ul{
     font-size: 0.9rem;
     word-spacing: 1px;
     line-height: 25px;
+}
+.welcome .container{
+    width: 74%;
+    margin: 0 auto;
+}
+.welcome__design,
+.welcome__marketing,
+.welcome__financial{
+    padding: 30px 30px;
+}
+.welcom__design--icon i,
+.welcom__marketing--icon i,
+.welcom__financial--icon i{
+    font-size: 2rem;
+    
+}
+.welcom__design--title h3,
+.welcom__financial--title h3,
+.welcom__marketing--title h3{
+    color: #ff4f81;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin: 18px 0;
+}
+.content__item h4{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.content__item p{
+    font-size: 1rem;
+    color: rgb(161, 158, 158);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 20px 0;
+}
+/* OUR STATS */
+.ourstats{
+    background-image: url(../img/banner2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ourstats .heading p::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 4.5%;
+    margin: 20px auto;
+    background-color: black;
+}
+.ourstats .container{
+    width: 74%;
+    margin: 0 auto;
+}
+.ourstat__content{
+    padding: 26px 0;
+}
+.ourstat__item{
+    text-align: center;
+}
+.ourstat__icon{
+    color: white;
+    font-size: 2rem;
+}
+.ourstat__item h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ff4f81;
+    margin: 20px 0;
+}
+.ourstat__item  p{
+    font-size: 3rem;
+    color: white;
+    font-weight: 300;
+    line-height: normal;
 }
