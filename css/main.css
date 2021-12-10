@@ -2,7 +2,7 @@
 *{
     padding:0;
     margin:0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 html{
     font-family: 'Montserrat', sans-serif;
@@ -265,4 +265,45 @@ ul{
     color: white;
     font-weight: 300;
     line-height: normal;
+}
+/* OFFER */
+.offer .container{
+    width: 76%;
+    margin: 0 auto;
+}
+.offer .heading p::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 4.5%;
+    margin: 20px auto 50px;
+    background-color: black;
+}
+.offer__col{
+    padding: 15px;
+}
+.offer__item{
+    border: 1px solid rgb(243, 243, 243);
+    padding: 25px 30px;
+    text-align:center;
+    box-shadow: 0 1px 8px 0px rgba(158,158,158,0.75);
+    transition : all .3s; 
+}
+.offer__item:hover{
+    background-color: #12ccc3;
+}
+.offer__item i {
+    font-size: 2.4rem;
+    color: #ff4f81;
+}
+.offer__item h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 25px 0;
+}
+.offer__item p{
+    font-size: 0.9rem;
+    color: rgb(119, 118, 117);
+    word-spacing: 1px;
 }
