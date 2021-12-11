@@ -316,6 +316,11 @@ ul{
     margin: 20px auto;
     background-color: black;
 }
+.feedback .heading p{
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: white;
+}
 .feedback {
     background-image: url(../img/banner3.jpg);
     background-position: center;
@@ -351,12 +356,71 @@ ul{
 .feedback .feedback__content--bottom{
     display: flex;
     justify-content: center;
+    margin: 35px 0 20px;
 }
 .feedback .feedback__content--bottom img{
     width: 16%;
+
 }
 .feedback__info p:first-child{
     margin: 0 5px;
     font-size: 1.2rem;
     font-weight: bold;
+}
+.feedback__info p:last-child{
+    margin: 0 5px;
+    font-size: 1rem;
+    color: #ff4f81;
+}
+
+ .owl-theme .owl-dots .owl-dot span{
+    background-color: #ff4f81;
+    opacity: 0.5;
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span{   
+    background-color: #ff4f81;
+    opacity: 1;
+}
+/* NEW&EVENTS */
+.new .heading p::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 4.5%;
+    margin: 20px auto;
+    background-color: black;
+}
+.new .container{
+    width: 75%;
+    margin: 0 auto;
+}
+.new__content img{
+    border: 2px solid #dedede;
+}
+.new__content .new__item  a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .4s;
+}
+.new__content .new__item a:hover{
+    color: #ff4f81;
+}
+.new__content .row:first-child{
+    margin: 40px 0 50px 0;
+}
+.new__item h5{
+    font-size: 1rem;
+    color: #ff4f81;
+    font-weight: 700;
+    margin: 1.2rem 0;
+}
+.new__item p{
+    font-size: 0.9rem;
+    color: rgb(143, 142, 142);
+    word-spacing: 2px;
+    line-height: 28px;
 }
