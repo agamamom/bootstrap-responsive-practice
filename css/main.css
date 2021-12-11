@@ -307,3 +307,56 @@ ul{
     color: rgb(119, 118, 117);
     word-spacing: 1px;
 }
+/* FEEDBACK */
+.feedback .heading p::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 4.5%;
+    margin: 20px auto;
+    background-color: black;
+}
+.feedback {
+    background-image: url(../img/banner3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.feedback .container{
+    width: 74%;
+    margin: 40px auto 0;
+    background-color:rgba(0, 0, 0, 0.445);
+    padding: 20px 30px;
+    box-shadow: 0 0 12px #fff
+}
+.feedback__content{
+    color: white;
+    margin: 10px 15px;
+}
+.feedback__content--top p{
+    background-color:rgba(0, 0, 0, 0.356);
+    padding: 15px 35px 30px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: relative;
+}
+.feedback__content--top::after{
+    content: '';
+    border-top: 9px solid rgba(0, 0, 0, 0.356);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position:absolute;
+    top: 127px;
+    left: 111px;
+}
+.feedback .feedback__content--bottom{
+    display: flex;
+    justify-content: center;
+}
+.feedback .feedback__content--bottom img{
+    width: 16%;
+}
+.feedback__info p:first-child{
+    margin: 0 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

@@ -16,6 +16,9 @@
         rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -319,7 +322,89 @@
         </div>
     </section>
     <!-- FEEDBACK -->
-    <section class="feedback"></section>
+    <section class="feedback section">
+        <div class="heading">
+            <h1>TESTIMONIALS</h1>
+            <p>When Climbing The Carrer Ladder</p>
+        </div>
+        <div class="owl-carousel owl-theme container">
+            <div class="item">
+                <div class="feedback__content">
+                    <div class="feedback__content--top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__content--bottom">
+                        <img src="./img/test1.jpg" alt="">
+                        <div class="feedback__info">
+                            <p>Steven</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback__content">
+                    <div class="feedback__content--top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__content--bottom">
+                        <img src="./img/test2.jpg" alt="">
+                        <div class="feedback__info">
+                            <p>Peter</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback__content">
+                    <div class="feedback__content--top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__content--bottom">
+                        <img src="./img/test3.jpg" alt="">
+                        <div class="feedback__info">
+                            <p>Layla</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback__content">
+                    <div class="feedback__content--top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__content--bottom">
+                        <img src="./img/test1.jpg" alt="">
+                        <div class="feedback__info">
+                            <p>Wilson</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback__content">
+                    <div class="feedback__content--top">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula
+                            pellentesque. </p>
+                    </div>
+                    <div class="feedback__content--bottom">
+                        <img src="./img/test2.jpg" alt="">
+                        <div class="feedback__info">
+                            <p>Angek</p>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- NEWS -->
     <section class="new"></section>
     <!-- FOOTER -->
@@ -333,6 +418,25 @@
         </script>
     <!-- BS -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- CAROUSEL -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>
