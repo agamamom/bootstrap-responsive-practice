@@ -424,3 +424,23 @@ ul{
     word-spacing: 2px;
     line-height: 28px;
 }
+#exampleModal h5{
+    color: #ff4f81;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#exampleModal p{
+    font-size:0.9rem;
+    line-height: 25px;
+    color: rgb(140, 142, 143);
+    margin: 20px 0;
+}
+#exampleModal .modal-dialog{
+    max-width: 600px;
+}
+/* FOOTER */
+
+.footer__address p{
+    display: inline-block;
+}
