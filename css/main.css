@@ -538,3 +538,25 @@ ul{
 .footer__bottom a:hover{
     color:#fdfdfd;
 }
+/* RESPONSIVE */
+/* MOBILE */
+@media screen and (min-width : 414px) and (max-width : 736px) {
+    .header__left a{
+        display: block;
+    }
+    .header__right {
+        padding: 19px 0;
+    }
+    .navInstruction .navbar-brand {
+        margin-left: 0 !important;
+    }
+    .navInstruction .navbar-brand p:first-child{
+        font-size: 3vh;
+    }
+    .navInstruction .navbar-brand i{
+        font-size: 3vh;
+    }
+    .navInstruction .navbar-brand p:last-child{
+        font-size: 1.2vh;
+    }
+}
