@@ -25,6 +25,7 @@ ul{
 .heading p{
     font-size: 1rem;
     letter-spacing: 3px;
+    
 }
 
 .section{
@@ -242,6 +243,9 @@ ul{
     background-attachment: fixed;
     background-size: cover;
 }
+.ourstats .heading p{
+    color: #c9c9d4;
+}
 .ourstats .heading p::after{
     content: '';
     display: block;
@@ -420,7 +424,7 @@ ul{
     color: #ff4f81;
 }
 .new__content .row:first-child{
-    margin: 40px 0 50px 0;
+    margin: 40px -12px 50px -12px;
 }
 .new__item h5{
     font-size: 1rem;
@@ -483,6 +487,8 @@ ul{
 }
 .footer__contact{
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
 }
 .footer__contact i{
     width: 32px;
@@ -551,9 +557,12 @@ ul{
 /*********************************** RESPONSIVE */
 
 /* MOBILE */
-@media screen and (min-width: 500px) and (max-width: 576px){
+@media screen and (min-width: 320px) and (max-width: 576px){
     .feedback .feedback__content--bottom img{
         width: 19%;
+    }
+    .heading p{
+        padding: 0 60px;
     }
 }
 @media screen and (min-width : 320px) and (max-width : 768px) {
